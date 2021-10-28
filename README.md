@@ -11,9 +11,15 @@ hashmap 100 get         time:   [9.5790 ns 9.5981 ns 9.6190 ns]
 vec 1000 find           time:   [369.25 ns 373.79 ns 378.33 ns]
 hashmap 1000 get        time:   [9.5862 ns 9.6049 ns 9.6261 ns]
 ```
-## rwlock_vs_mutex_vs_regular
+
+## rwlock_vs_mutex_vs_raw
 ```
 rwlock                  time:   [10.342 ns 10.382 ns 10.444 ns]
 mutex                   time:   [10.319 ns 10.335 ns 10.352 ns]
 raw                     time:   [206.56 ps 206.84 ps 207.15 ps]
+```
+
+## hashmap_insert_remove
+```
+remove + insert         time:   [26.362 ns 26.571 ns 26.790 ns]
 ```

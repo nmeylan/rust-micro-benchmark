@@ -13,5 +13,8 @@ criterion = "0.3"
 name = "hashmap_get_vs_vec_find"
 harness = false
 [[bench]]
-name = "rwlock_vs_mutex_vs_regular"
+name = "rwlock_vs_mutex_vs_raw"
+harness = false
+[[bench]]
+name = "hashmap_insert_remove"
 harness = false

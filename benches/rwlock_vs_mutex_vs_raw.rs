@@ -1,4 +1,3 @@
-use std::collections::HashMap;
 use std::sync::{Mutex, RwLock};
 use criterion::{black_box, criterion_group, criterion_main, Criterion};
 
