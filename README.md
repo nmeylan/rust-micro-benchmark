@@ -23,3 +23,13 @@ raw                     time:   [206.56 ps 206.84 ps 207.15 ps]
 ```
 remove + insert         time:   [26.362 ns 26.571 ns 26.790 ns]
 ```
+
+
+## hashmap_get_vs_vec_get
+```
+vec 1000 find           time:   [478.78 ps 486.95 ps 498.36 ps]
+hashmap 1000 get        time:   [10.318 ns 10.346 ns 10.375 ns]
+
+vec 160000 find         time:   [471.80 ps 473.66 ps 475.73 ps]
+hashmap 160000 get      time:   [9.9816 ns 10.022 ns 10.064 ns]
+```
